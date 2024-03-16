@@ -6,9 +6,9 @@
 @import url("sections/hero.css");
 @import url("sections/about.css");
 @import url("sections/popular.css");
-/*@import url("sections/trending.css");
+@import url("sections/trending.css");
 @import url("sections/subscribe.css");
-@import url("sections/footer.css"); */
+@import url("sections/footer.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -242,7 +242,7 @@ a {
   }
 
   .popular__foods__card,
-  .popular__foods__card.active-card {
+  .popular__foods__card.active__card {
     min-width: 100%;
   }
 }
@@ -286,11 +286,11 @@ a {
 
 /* START: trending media queries */
 @media screen and (max-width: 1024px) {
-  .trending-sushi {
+  .trending__sushi {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending__drink {
     flex-direction: column-reverse;
   }
 
