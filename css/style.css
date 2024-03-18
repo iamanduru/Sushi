@@ -105,7 +105,7 @@ a {
   scrollbar-width: none; /* Firefox */
 }
 
-/* START: about us media queries */
+/* Start about us media queries */
 @media screen and (max-width: 1024px) {
   .about__us {
     flex-direction: column;
@@ -115,7 +115,7 @@ a {
     flex-direction: row;
   }
 
-  .about__us__image__sushi3 {
+  .about__us__image-sushi3 {
     border-bottom: none;
     border-right: 8px solid var(--color-creamson);
   }
@@ -130,7 +130,7 @@ a {
     flex-direction: column;
   }
 
-  .about__us__image__sushi3 {
+  .about__us__image-sushi3 {
     border-bottom: 8px solid var(--color-creamson);
     border-right: none;
   }
@@ -142,11 +142,10 @@ a {
 }
 
 @media screen and (max-width: 550px) {
-  .about__us__image__sushi2 img,
-  .about__us__image__sushi3 img {
+  .about__us__image-sushi2 img,
+  .about__us__image-sushi3 img {
     width: 50%;
     height: 160px;
-
     object-fit: contain;
   }
 
@@ -158,14 +157,14 @@ a {
     top: 44%;
   }
 
-  .about__us__content {
+  .about-us__content {
     padding: 32px;
   }
 }
-/* END: about us media queries */
+/* End of about us media queries */
 
 
-/* START: header media querie */
+/* START: header media queries */
 @media screen and (max-width: 900px) {
   .header__nav {
     background: var(--primary-color);
@@ -175,7 +174,7 @@ a {
     display: none;
   }
 
-  .header__menu-mobile {
+  .header__menu__mobile {
     display: flex;
   }
 }
@@ -213,15 +212,15 @@ a {
     line-height: 60px;
   }
 
-  .hero__content-info {
+  .hero__content__info {
     padding: 32px;
   }
 
-  .hero__content-info h1 {
+  .hero__content__info h1 {
     font-size: 60px;
   }
 
-  .hero__content-info p {
+  .hero__content__info p {
     margin: 32px 0;
   }
 
@@ -233,9 +232,9 @@ a {
     padding: 32px;
   }
 }
-/* END: hero media queries */
+/* End of hero media queries */
 
-/* START: popular media queries */
+/* Start of popular media queries */
 @media screen and (max-width: 550px) {
   .popular__foods {
     padding: 64px 32px;
@@ -246,7 +245,7 @@ a {
     min-width: 100%;
   }
 }
-/* END: popular media queries */
+/* End of popular media queries */
 
 /* START: subscribe media queries */
 @media screen and (max-width: 550px) {
@@ -318,4 +317,3 @@ a {
     padding: 32px;
   }
 }
-/* END: trending media queries */
