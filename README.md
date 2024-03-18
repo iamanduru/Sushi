@@ -1,4 +1,4 @@
-Sushi Website Project
+Sushi Website Project With the help of JavaMastery
 
 Welcome to the Sushi Website Project! This document provides an overview of the development process and the key technologies utilized in crafting a delightful online experience for showcasing popular sushi items, trendy options, and refreshing drinks.
 Tech Stack
